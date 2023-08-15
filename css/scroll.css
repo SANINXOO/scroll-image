@@ -1,0 +1,23 @@
+.scroll-bar{
+    display: flex;
+    gap: 4px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+.scroll-bar img{
+    width: 30%;
+    height: 200px;
+    transition: .2s;
+    
+}
+.scroll-bar img:hover{
+    transform: scale(1.3);
+    width: 140px;
+}
+.scroll-bar::-webkit-scrollbar{
+    display: none;
+}
